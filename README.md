@@ -9,13 +9,14 @@ For dataset I am using the following link:
 
 
 ## Steps 
-- Import required packages
-- Load data for the male and female names
-- Create a vocabulary
-- Create a data set class 
-- Create model 
-- Train the model
-- Analyze the results
+
+> - Import required packages
+> - Load data for the male and female names
+> - Create a vocabulary
+> - Create a data set class 
+> - Create model 
+> - Train the model
+> - Analyze the results
 
 
 ## Read and Clean the Data
