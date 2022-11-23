@@ -1,9 +1,7 @@
 In this project I am going to use LSTM-based neural networks to identify gender from names. I am using character embedding to pass to the LSTM model. Character embedding is suitable in this case because mostly differs based on gender by changing a few characters.
 For dataset I am using the following link:
 
-```
 <a href="https://archive.ics.uci.edu/ml/datasets/Gender+by+Name" target="_blank">DatasetLink</a>
-```
 
 <img width="258" alt="Screen Shot 1401-09-02 at 21 08 43" src="https://user-images.githubusercontent.com/71961438/203613907-536ecb92-5a3a-49cf-9263-8079df931dd0.png">
 
