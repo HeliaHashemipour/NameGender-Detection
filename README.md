@@ -2,7 +2,7 @@ In this project I am going to use LSTM-based neural networks to identify gender 
 For dataset I am using the following link:
 
 ```
-[https://archive.ics.uci.edu/ml/datasets/Gender+by+Name]
+[a link] (https://archive.ics.uci.edu/ml/datasets/Gender+by+Name)
 ```
 
 <img width="258" alt="Screen Shot 1401-09-02 at 21 08 43" src="https://user-images.githubusercontent.com/71961438/203613907-536ecb92-5a3a-49cf-9263-8079df931dd0.png">
