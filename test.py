@@ -3,9 +3,10 @@ from model import *
 from train import *
 
 MODEL.eval()
+
 with torch.no_grad():
-    TEST_TRUE_LABLES = []
-    TEST_PREDICTED_LABLES = []
+    test_true_labels = []
+    test_predicted_labels = []
 
     for batch in DATALOADER_TEST:
         DATA_BATCH, LABEL_BATCH = batch
@@ -13,12 +14,12 @@ with torch.no_grad():
         DATA_BATCH = DATA_BATCH.to(DEVICE)
         LABEL_BATCH = LABEL_BATCH.to(DEVICE)
 
-        OUTPUT = MODEL(DATA_BATCH)
+        out = MODEL(DATA_BATCH)
 
-        TEST_TRUE_LABLES.extend(LABEL_BATCH.tolist())
-        TEST_PREDICTED_LABLES.extend(torch.round(OUTPUT).tolist())
+        test_true_labels.extend(LABEL_BATCH.tolist())
+        test_predicted_labels.extend(torch.round(out).tolist())
 
-    ACCURACY = binary_acc(y_pred=TEST_PREDICTED_LABLES,
-                          y_test=TEST_TRUE_LABLES)
+    ACCURACY = binary_acc(y_pred=test_predicted_labels,
+                          y_test=test_true_labels)
 
-    print(f'Accuracy on Test Set: {ACCURACY :.2f}%')
+    print(f'Accuracy on Test Set is {ACCURACY :.2f}%')
