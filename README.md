@@ -40,4 +40,5 @@ We need a loss function as criteria and an optimizer to train our model. I am us
 For analyzing I am plotting the loss function for train and validation set. As we can see we don't have over/underfit. And the accuracy for validation set is around 77% therefor, the accuracy for test set is around 77%
 
 > loss of train/validation set
+
 ![download](https://user-images.githubusercontent.com/71961438/203621315-fee59059-7d24-4110-8fd8-a95a34176c56.png)
