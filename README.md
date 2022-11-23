@@ -24,6 +24,6 @@ Pytorch dataset class is extended to return name and gender tensor pair for each
 ## Train the Model
 We need a loss function as criteria and an optimizer to train our model. I am using SGD as my optimizer and BCELoss and loss function to train the model. 
 
-##Analyze The Results
+## Analyze The Results
 For analyzing I am plotting the loss function for train and validation set. As we can see we don't have over/underfit.
 
