@@ -1,3 +1,8 @@
+> Instructor: [Dr. H. Faili](https://scholar.google.se/citations?user=m5tCFEoAAAAJ&hl=en)
+
+> Summer 2022
+
+# Introduction
 In this project I am going to use LSTM-based neural networks to identify gender from names. I am using character embedding to pass to the LSTM model. Character embedding is suitable in this case because mostly differs based on gender by changing a few characters.
 For dataset I am using the following link:
 
